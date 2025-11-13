@@ -1,0 +1,35 @@
+2 cluster model shared Beta funtional Theta 230813_scl70.R
+- Wrapper for running RStan code and visualizing the traceplots
+
+stan_2cluster_sharedR_nR_b0_sharedBeta_functionalTheta.R
+- Stan code for fitting the two cluster model
+
+Functions.R
+- Functions for the real-time update of patient status and trajectories
+
+plot_table_preparation.R
+- Prepare the parameter posterior draws, called in plot_beta_summaries.R, plot_groupmeantraj_Figure2.R, plot_real time update_2 cluster model shared Beta funtional Theta 230124_scl70.R, plot_sankey.R, and Tables 2 and 3_plot_table_beta_summaries_sharedbeta_scl70.R
+
+plot_beta_summaries.R
+- Create Nightingale plot for biomarker-specific fixed effects coefficients
+
+plot_groupmeantraj_Figure2.R
+- Create cluster-specific mean biomarker trajectories plot
+
+plot_ns_splines.R
+- Visualize the natural splines, included in the supplementary material
+
+plot_real time update_2 cluster model shared Beta funtional Theta 230124_scl70.R
+- Create demonstration plot for person-specific real-time update of biomarker trajectories
+
+plot_sankey.R
+- Create the Sankey plot in the manuscript
+
+Table1.R
+- Table 1 in the manuscript, description of SSc cohort
+
+table_clustersummary.R
+- Table 1 in the manuscript, cluster-specific summaries
+
+Tables 2 and 3_plot_table_beta_summaries_sharedbeta_scl70.R
+- Nightingale plots (and corresponding tables) of fix effects coefficients by cluster and outcome
